@@ -1,3 +1,3 @@
 SELECT *
 FROM job_postings_fact
-LIMIT 10
+WHERE job_title_short = 'Data Analyst'
